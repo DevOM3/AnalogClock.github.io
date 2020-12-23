@@ -32,7 +32,7 @@ setTimeout(() => {
 
     minute.style.transform = `rotate(${minuteRotation}deg)`;
   }, 1000);
-}, 1500);
+}, 500);
 
 setTimeout(() => {
   setInterval(() => {
@@ -43,7 +43,7 @@ setTimeout(() => {
 
     second.style.transform = `rotate(${secondRotation}deg)`;
   }, 1000);
-}, 2000);
+}, 1000);
 
 setTimeout(() => {
   document.getElementById("hour").classList.add("hour");
